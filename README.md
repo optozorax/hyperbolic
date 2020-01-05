@@ -68,6 +68,10 @@
 
 [![](http://img.youtube.com/vi/ivHG4AOkhYA/0.jpg)](http://www.youtube.com/watch?v=ivHG4AOkhYA "")
 
+## А что если
+
+А что если спроецировать H<sup>3</sup> при помощи перспективной проекции на кусок H<sup>2</sup>. Будут ли там прямые линии прямыми? Да и вообще, какая проекция H<sup>3</sup> на H<sup>2</sup> обладает максимальным количеством хороших свойств?
+
 # Вычисления
 
 [Zeno Rogue советует эту стаью для расчётов в гиперболическом пространстве.](http://library.msri.org/books/Book31/files/cannon.pdf)
