@@ -65,7 +65,7 @@
 
 ## Диск Пуанкаре
 
-[На вики.](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model)
+[На вики.](https://en.wikipedia.org/wiki/Poincaré_disk_model)
 
 ![Картинка для привлечения внимания](/img/Poincare_disc_hyperbolic_parallel_lines.svg.png)
 
