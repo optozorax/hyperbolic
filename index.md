@@ -1,27 +1,16 @@
-# Оглавление
++++
+title = "Гиперболическая геометрия"
+weight = 30
+description = "Сборник информации о гиперболической геометрии."
 
-* [Геометрия Лобачевского (гиперболическая геометрия)](#геометрия-лобачевского-гиперболическая-геометрия)
-* [Теоремы и аксиомы этой геометрии](#теоремы-и-аксиомы-этой-геометрии)
-* [Книги](#книги)
-* [Визуализация](#визуализация)
-   * [Диск Пуанкаре](#диск-пуанкаре)
-   * [Верхняя полуплоскость](#верхняя-полуплоскость)
-   * [Band model](#band-model)
-   * [Рейтрейсинг](#рейтрейсинг)
-   * [А что если](#а-что-если)
-* [Вычисления](#вычисления)
-   * [С чего я начинал](#с-чего-я-начинал)
-   * [Движение на диске Пуанкаре](#движение-на-диске-пуанкаре)
-* [Замощения](#замощения)
-* [Игра на гиперболике](#игра-на-гиперболике)
-   * [Майнкрафт](#майнкрафт)
-   * [Ограничения по памяти](#ограничения-по-памяти)
-   * [Сжатость](#сжатость)
-* [Интересности](#интересности)
-   * [Дискретные координаты для замощений на гиперболической геометрии](#дискретные-координаты-для-замощений-на-гиперболической-геометрии)
-   * [Демки на гиперболической плоскости](#демки-на-гиперболической-плоскости)
-* [Мемы](#мемы)
-* [Несортированные ссылки](#несортированные-ссылки)
+[taxonomies]
+tags = ["гиперболика", "систематизация"]
+
+[extra]
+image = "img/Poincare_disc_hyperbolic_parallel_lines.svg.png"
+vk = "https://vk.com/wall-169103586_31"
+button = { text = "Репозиторий этой страницы", link="https://github.com/optozorax/hyperbolic" }
++++
 
 # Геометрия Лобачевского (гиперболическая геометрия)
 
@@ -29,7 +18,7 @@
 
 2D пространство с гиперболической геометрией обозначается как H<sup>2</sup>, аналогично 3D как H<sup>3</sup>. Обычное евклидово пространство обозначается буквой E, например: E, E<sup>2</sup>, E<sup>3</sup>, E<sup>4</sup>.
 
-Здесь будет систематизироваться интересный материал из чатика: https://t.me/metageometria
+Здесь будет систематизироваться интересный материал из чатика: <https://t.me/metageometria>
 
 # Теоремы и аксиомы этой геометрии
 
@@ -45,13 +34,19 @@
 
 Из этой аксиомы следует что через данную точку проходит бесконечно много прямых, не пересекающих данной. Изображается это так:
 
-[![](/img/5_axiom.png)](https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F_%D0%9B%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Klein_model.svg)
+{{ figure_start() }}
+{{ image(path="img/5_axiom.png") }}
+{{ figure_end(caption="[Источник](https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F_%D0%9B%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Klein_model.svg)") }}
 
 Так же есть изображения, хорошо показывающие основные различия всех трёх известных геометрий:
 
-[![](/img/comparison_spaces.png)](https://web.archive.org/web/20180715221111/http://pmrb.net/blog/tag/non-euclidean-geometry/)
+{{ figure_start() }}
+{{ image(path="img/comparison_spaces.png") }}
+{{ figure_end(caption="[Источник](https://web.archive.org/web/20180715221111/http://pmrb.net/blog/tag/non-euclidean-geometry/)") }}
 
-[![](/img/triangles_spaces.png)](https://web.archive.org/web/20180715221111/http://pmrb.net/blog/tag/non-euclidean-geometry/)
+{{ figure_start() }}
+{{ image(path="img/triangles_spaces.png") }}
+{{ figure_end(caption="[Источник](https://web.archive.org/web/20180715221111/http://pmrb.net/blog/tag/non-euclidean-geometry/)") }}
 
 # Книги
 
@@ -67,13 +62,13 @@
 
 [На вики.](https://en.wikipedia.org/wiki/Poincaré_disk_model)
 
-![Картинка для привлечения внимания](/img/Poincare_disc_hyperbolic_parallel_lines.svg.png)
+{{ image(path="img/Poincare_disc_hyperbolic_parallel_lines.svg.png") }}
 
 ## Верхняя полуплоскость
 
 [На вики.](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model)
 
-![Картинка для привлечения внимания](/img/350px-Parallel_rays_in_Poincare_model_of_hyperbolic_geometry.svg.png)
+{{ image(path="img/350px-Parallel_rays_in_Poincare_model_of_hyperbolic_geometry.svg.png") }}
 
 Прямая представляется как полу-окружность, с центром на прямой y=0. Так, чтобы построить прямую по двум точкам, надо построить окружность по этим двум точкам. Благо ограничение с центром на прямой сокращает число неизвестных до двух. Либо это вертикальный луч.
 
@@ -85,13 +80,15 @@
 
 ## Band model
 
-[![](/img/band.png)](http://bulatov.org/math/1001/index.html#(12))
+{{ figure_start() }}
+{{ image(path="img/band.png") }}
+{{ figure_end(caption="[Источник](http://bulatov.org/math/1001/index.html#(12))") }}
 
 ## Рейтрейсинг
 
 А вот чтобы изобразить H<sup>3</sup>, можно использовать те же методы, что и для визуализации E<sup>3</sup>, например: перспективную проекцию и рейтрейсинг. Что, собственно, и сделали в следующем видео:
 
-[![](http://img.youtube.com/vi/ivHG4AOkhYA/0.jpg)](http://www.youtube.com/watch?v=ivHG4AOkhYA "")
+{{ youtube(id="ivHG4AOkhYA") }}
 
 ## А что если
 
@@ -103,7 +100,7 @@
 
 ## С чего я начинал
 
-![](/img/life.gif)
+{{ image(path="img/life.gif") }}
 
 Статья, где очень хорошо объясняют как симулировать плоскость Лобачевского: [ Жизнь на плоскости Лобачевского ](https://habr.com/ru/post/168421/). В ней есть ещё много чего интересного, например замкнутость пространства на самого себя, надо это изучить.
 
@@ -111,7 +108,9 @@
 
 ## Движение на диске Пуанкаре
 
-[![](/img/calc.png)](https://math.stackexchange.com/questions/308339/rigid-body-motion-on-the-poincare-disc-model-of-the-hyperbolic-plane)
+{{ figure_start() }}
+{{ image(path="img/calc.png") }}
+{{ figure_end(caption="[Источник](https://math.stackexchange.com/questions/308339/rigid-body-motion-on-the-poincare-disc-model-of-the-hyperbolic-plane)") }}
 
 [Анимация движения по оси X.](https://t.me/metageometria/520)
 
@@ -127,7 +126,9 @@ R(ф) * M(x) * R(-ф)
 
 Вы, наверное знаете, что обычное двумерное пространство можно замостить правильными многоугольниками:
 
-[![](/img/tiling.png)](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BC%D0%BE%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%28%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F%29)
+{{ figure_start() }}
+{{ image(path="img/tiling.png") }}
+{{ figure_end(caption="[Источник](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BC%D0%BE%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%28%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F%29)") }}
 
 В гиперболической геометрии на это есть куда больше свободы, потому что там у любого правильного многоугольника может быть почти любой угол: в зависимости от размера, угол уменьшается. 
 
@@ -135,11 +136,11 @@ R(ф) * M(x) * R(-ф)
 
 За счёт этого можно разгуляться со всякими замощениями, изменяя размер фигур. Например у этого замощения угол в правильных пятиугольниках равен 90 градусов:
 
-![](/img/pentagon.jpg)
+{{ image(path="img/pentagon.jpg") }}
 
 Лекция про замощения на гиперболической плоскости:
 
-[![](http://img.youtube.com/vi/YpKWa8vrULk/0.jpg)](http://www.youtube.com/watch?v=YpKWa8vrULk "")
+{{ youtube(id="YpKWa8vrULk") }}
 
 # Игра на гиперболике
 
@@ -179,7 +180,7 @@ sinh(x) = (e<sup>x</sup> - e<sup>-x</sup>)/2.
 
 Второй пункт выбрала игра [HyperRogue](http://www.roguetemple.com/z/hyper/), но она находится на 2D плоскости.
 
-[![](http://img.youtube.com/vi/xAFrKKApHTY/0.jpg)](http://www.youtube.com/watch?v=xAFrKKApHTY "")
+{{ youtube(id="xAFrKKApHTY") }}
 
 ## Сжатость
 
@@ -189,7 +190,7 @@ L = 2 pi sinh(r)
 
 А это значит, что на расстоянии 20 у нас будет помещаться примерно e<sup>20</sup> блоков, следовательно вдалеке мы будем видеть мир очень сжатым. И движение по такому миру будет выглядеть не как обычное движение, а как зумирование, ведь всё будет очень быстро увеличиваться в размерах.
 
-[![](http://img.youtube.com/vi/twrn6CW-szo/0.jpg)](http://www.youtube.com/watch?v=twrn6CW-szo "")
+{{ youtube(id="twrn6CW-szo") }}
 
 # Интересности
 
@@ -203,28 +204,36 @@ L = 2 pi sinh(r)
 
 [Adjacent heptagons on hyperbolic plane](http://vlad-shcherbina.github.io/2015/01/12/adjacent-heptagons.html)
 
-![Картинка для привлечения внимания 1](/img/coords1.png)
-![Картинка для привлечения внимания 2](/img/coords2.png)
+{{ image(path="img/coords1.png") }}
+{{ image(path="img/coords2.png") }}
 
 [Тоже что-то про дискретные координаты, чтобы не потерять](https://arxiv.org/pdf/1101.0530.pdf)
 
 ## Демки на гиперболической плоскости
 
-[![](/img/demo1.png)](https://www.shadertoy.com/view/wtj3Ry)
+{{ figure_start() }}
+{{ image(path="img/demo1.png") }}
+{{ figure_end(caption="[Источник](https://www.shadertoy.com/view/wtj3Ry)") }}
 
-[![](/img/demo2.png)](https://www.shadertoy.com/view/3tBGDD)
+{{ figure_start() }}
+{{ image(path="img/demo2.png") }}
+{{ figure_end(caption="[Источник](https://www.shadertoy.com/view/3tBGDD)") }}
 
-[![](/img/demo3.png)](https://www.shadertoy.com/view/3llXR4)
+{{ figure_start() }}
+{{ image(path="img/demo3.png") }}
+{{ figure_end(caption="[Источник](https://www.shadertoy.com/view/3llXR4)") }}
 
 Анимация движения объектов в замощении квадратами:
 
-[![](/img/demo4.png)](https://www.shadertoy.com/view/ldsfD8)
+{{ figure_start() }}
+{{ image(path="img/demo4.png") }}
+{{ figure_end(caption="[Источник](https://www.shadertoy.com/view/ldsfD8)") }}
 
 # Мемы
 
-![](/img/meme1.jpg)
+{{ image(path="img/meme1.jpg") }}
 
-![](/img/meme2.jpg)
+{{ image(path="img/meme2.jpg") }}
 
 # Несортированные ссылки
 
